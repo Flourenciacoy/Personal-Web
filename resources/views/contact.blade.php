@@ -28,12 +28,18 @@
                     <a href="{{ asset('Asset/Flourencia.pdf') }}" download class="btn btn2">Download CV</a>
                 </div>
                 <div class="contact-right">
-                    <form>
+                <form action="{{ url('/contact') }}" method="POST"> <!-- Update form action -->
+                        @csrf <!-- CSRF protection -->
                         <input type="text" name="Name" placeholder="Your Name" required>
                         <input type="email" name="Email" placeholder="Your Email" required>
-                        <input type="Message" rows="6" placeholder="Your Message"></textarea>
+                        <textarea name="Message" rows="6" placeholder="Your Message" required></textarea>
                         <button type="submit" class="btn btn2">Submit</button>
                     </form>
+                    @if(session('success'))
+                        <script>
+                            alert("Thanks for contacting me! I will reply to you as soon as possible.");
+                        </script>
+                    @endif
                 </div>
             </div>
         </div>
