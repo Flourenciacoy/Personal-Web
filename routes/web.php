@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Contorllers\UserController;
 
-Route::get ('/home',function(){
+Route::get ('/',function(){
     return view ('home');
 })->name('home');
 

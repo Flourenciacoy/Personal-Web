@@ -34,6 +34,12 @@
                     <p>Saya menjuarai lomba cipta puisi menempati juara ke-2</p>
                     <a href="#">Learn more</a>
                 </div>
+                <div>
+                    <i class="fa-solid fa-trophy"></i>
+                    <h2>Bootcamp HIMTI 2023</h2>
+                    <p>Saya mendatkan juara 2 membuat website HTML dan CSS</p>
+                    <a href="#">Learn more</a>
+                </div>
             </div>
         </div>
     </div>

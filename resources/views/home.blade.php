@@ -25,11 +25,11 @@
         <div class="container">
             <div class="row">
                 <div class="about-col-1">
-                    <img src="{{ asset('Asset/profile2.png') }}" alt="Profile Picture">
+                    <img src="{{ asset('Asset/Profile Pict SVG.svg') }}" alt="Profile Picture">
                 </div>
                 <div class="about-col-2">
                     <h1 class="sub-tittle">About Me</h1>
-                    <p>Hello my name is Flourencia, I'm an undergraduate from Bina Nusantara University. I am from Banjarmasin, South Kalimantan, Indonesia.
+                    <p>Hello my name is Flourencia, I'm an undergraduate from Bina Nusantara University. I am from Sidoarjo, East Java, Indonesia.
                         I'm interested in programming since I was in high school. And I decided to continue my journey as a Full Stack developer.
                         <br>Below I show more things about me: 
                     </p>
@@ -42,7 +42,7 @@
                         <ul>
                             <li><span>UI/UX</span><br>Designing web/app interfaces</li>
                             <li><span>Web Development</span><br>Web/app Development</li>
-                            <li><span>Language</span><br>I can speak multiple languages such as English, Mandarin, and Indonesian</li>
+                            <li><span>Language</span><br>I can speak multiple languages such as English, Korean, and Indonesian</li>
                         </ul>
                     </div>
                     <div class="tab-contents" id="Experience">
