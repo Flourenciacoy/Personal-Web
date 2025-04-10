@@ -73,34 +73,6 @@
                     </div>
                 </div>
                 <div class="work">
-                    <img src="{{ Asset('Asset/smartso.jpg') }}" alt="Smart Society 2024">
-                    <div class="layer">
-                        <h3>Smart Society 2024</h3>
-                        <a href="#"><i class="fa-solid fa-link"></i></a>
-                    </div>
-                </div>
-                <div class="work">
-                    <img src="{{ Asset('Asset/expo.jpg') }}" alt="Expo Smart Gate">
-                    <div class="layer">
-                        <h3>Expo Smart Gate</h3>
-                        <a href="#"><i class="fa-solid fa-link"></i></a>
-                    </div>
-                </div>
-                <div class="work">
-                    <img src="{{ Asset('Asset/fl.jpg') }}" alt="Freshmen Leader">
-                    <div class="layer">
-                        <h3>Freshmen Leader FYP B28</h3>
-                        <a href="#"><i class="fa-solid fa-link"></i></a>
-                    </div>
-                </div>
-                <div class="work">
-                    <img src="{{ Asset('Asset/icsc2024.jpg') }}" alt="ICSC 2024">
-                    <div class="layer">
-                        <h3>ICSC 2024</h3>
-                        <a href="#"><i class="fa-solid fa-link"></i></a>
-                    </div>
-                </div>
-                <div class="work">
                     <img src="{{ Asset('Asset/mural.jpg') }}" alt="Murealfi 2024">
                     <div class="layer">
                         <h3>Murealfi 2024</h3>
@@ -115,16 +87,44 @@
                     </div>
                 </div>
                 <div class="work">
-                    <img src="{{ Asset('Asset/sesvent.jpg') }}" alt="SESVENT 2024">
+                    <img src="{{ Asset('Asset/fl.jpg') }}" alt="Freshmen Leader">
                     <div class="layer">
-                        <h3>SESVENT 2024</h3>
+                        <h3>Freshmen Leader FYP B28</h3>
                         <a href="#"><i class="fa-solid fa-link"></i></a>
                     </div>
                 </div>
                 <div class="work">
-                    <img src="{{ Asset('Asset/serti.jpg') }}" alt="FPN x RRI 2023">
+                    <img src="{{ Asset('Asset/fpn2.jpg') }}" alt="FPN x RRI 2023">
                     <div class="layer">
                         <h3>FPN x RRI 2023</h3>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="{{ Asset('Asset/expo.jpg') }}" alt="Expo Smart Gate">
+                    <div class="layer">
+                        <h3>Expo Smart Gate</h3>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="{{ Asset('Asset/icsc2024.jpg') }}" alt="ICSC 2024">
+                    <div class="layer">
+                        <h3>ICSC 2024</h3>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="{{ Asset('Asset/sso.jpg') }}" alt="Smart Society 2024">
+                    <div class="layer">
+                        <h3>Smart Society 2024</h3>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="{{ Asset('Asset/sesvent.jpg') }}" alt="SESVENT 2024">
+                    <div class="layer">
+                        <h3>SESVENT 2024</h3>
                         <a href="#"><i class="fa-solid fa-link"></i></a>
                     </div>
                 </div>
