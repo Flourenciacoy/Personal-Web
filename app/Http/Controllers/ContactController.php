@@ -7,23 +7,25 @@ use App\Models\Contact;
 
 class ContactController extends Controller
 {
-    public function store(Request $request)
+    public function index()
     {
-        // Validate the incoming request data
+        return view('contact');
+    }
+
+    public function submit(Request $request)
+    {
         $request->validate([
-            'Name' => 'required|string|max:255',
-            'Email' => 'required|email|max:255',
-            'Message' => 'required|string',
+            'name' => 'required|string|max:255',
+            'email' => 'required|email|max:255',
+            'message' => 'required|string',
         ]);
 
-        // Create a new contact entry in the database
         Contact::create([
-            'name' => $request->Name,
-            'email' => $request->Email,
-            'message' => $request->Message,
+            'name' => $request->name,
+            'email' => $request->email,
+            'message' => $request->message,
         ]);
 
-        // Redirect back with a success message
         return back()->with('success', 'Thank you for your message!');
     }
 }
